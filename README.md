@@ -61,8 +61,8 @@ If you encounter issues:
 
 ## 📜 License
 
-MIT Licensed - Free for educational and personal use
-Approved by - DBg  Rubil94
+-MIT Licensed - Free for educational and personal use
+-Approved by - DBg  Rubil94
 
 ## 💡 Pro Tip
 
