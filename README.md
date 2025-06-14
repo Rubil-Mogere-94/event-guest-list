@@ -8,7 +8,6 @@ A complete solution for organizing your school's music festival lineup right fro
 - **Genre Classification**: Categorize as Traditional, Band, Choir, or Solo
 - **Confirmation Tracking**: Mark performers as Confirmed/Pending
 - **Local Storage**: Your lineup persists between sessions
-- **Interactive Terminal Interface**: Simple command-line operation
 - **limit**:Has a limit cap for 10 guests
 ## 🛠️ Prerequisites
 
