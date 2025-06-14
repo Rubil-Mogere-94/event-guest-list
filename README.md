@@ -19,6 +19,11 @@ A complete solution for organizing your school's music festival lineup right fro
 ## 🚀 How to run
 
 1. **Download or clone** the repository
+
+```
+git@github.com:Rubil-Mogere-94/event-guest-list.git
+
+```
 2. **Open the folder** in VS Code
 3. **Run the application** using live server:
 
