@@ -12,11 +12,11 @@ A complete solution for organizing your school's music festival lineup right fro
 - **limit**:Has a limit cap for 10 guests
 ## 🛠️ Prerequisites
 
-- Node.js installed ([download here](https://nodejs.org/))
+- Node.js installed [download here](https://nodejs.org/)
 - VS Code (or any code editor)
 - runs on the browser
 
--([live link](https://event-guest-list-jade.vercel.app/))
+      [live link](https://event-guest-list-jade.vercel.app/)
 
 ## 🚀 How to run
 
