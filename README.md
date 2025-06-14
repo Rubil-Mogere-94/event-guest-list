@@ -16,6 +16,8 @@ A complete solution for organizing your school's music festival lineup right fro
 - VS Code (or any code editor)
 - runs on the browser
 
+-([live link](https://event-guest-list-jade.vercel.app/))
+
 ## 🚀 How to run
 
 1. **Download or clone** the repository
