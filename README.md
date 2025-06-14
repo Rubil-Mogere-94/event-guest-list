@@ -18,6 +18,11 @@ A complete solution for organizing your school's music festival lineup right fro
 
 - live[link](https://event-guest-list-jade.vercel.app/)
 
+
+## Installation
+
+No installation required. Just download or clone the repository.
+
 ## 🚀 How to run
 
 1. **Download or clone** the repository
