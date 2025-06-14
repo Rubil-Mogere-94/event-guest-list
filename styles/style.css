@@ -1,0 +1,288 @@
+:root {
+    --festival-dark: #1a0b0d;
+    --festival-purple: #8e44ad;
+    --festival-blue: #3498db;
+    --festival-pink: #e84393;
+    --festival-teal: #1abc9c;
+    --festival-gray: #34495e;
+    --festival-light: #ecf0f1;
+}
+
+body {
+    background-color: var(--festival-dark);
+    color: var(--festival-light);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.festival-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(33, 17, 20, 0.8);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
+    border: 1px solid var(--festival-blue);
+}
+
+.festival-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--festival-purple);
+    padding-bottom: 1rem;
+}
+
+.festival-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--festival-teal);
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.festival-header p {
+    color: var(--festival-pink);
+    margin-top: 0.5rem;
+}
+
+.control-panel {
+    background: rgba(75, 50, 42, 0.4);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--festival-purple);
+}
+
+.festival-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    color: var(--festival-teal);
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid var(--festival-blue);
+    background-color: var(--festival-gray);
+    color: var(--festival-light);
+    font-family: 'Roboto', sans-serif;
+}
+
+.festival-button {
+    background: linear-gradient(135deg, var(--festival-purple), var(--festival-blue));
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.festival-button:hover {
+    background: linear-gradient(135deg, var(--festival-blue), var(--festival-purple));
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(142, 68, 173, 0.4);
+}
+
+.artist-display h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--festival-pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--festival-purple);
+    padding-bottom: 0.5rem;
+}
+
+#artist-count {
+    font-size: 1rem;
+    color: var(--festival-teal);
+}
+
+.festival-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.artist-item {
+    background: rgba(75, 50, 42, 0.4);
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--festival-blue);
+    transition: all 0.3s ease;
+}
+
+.artist-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+.artist-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.artist-name {
+    font-weight: bold;
+}
+
+.artist-genre {
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.artist-genre.rock {
+    background-color: rgba(231, 76, 60, 0.2);
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+
+.artist-genre.pop {
+    background-color: rgba(155, 89, 182, 0.2);
+    border: 1px solid #9b59b6;
+    color: #9b59b6;
+}
+
+.artist-genre.hiphop {
+    background-color: rgba(52, 152, 219, 0.2);
+    border: 1px solid var(--festival-blue);
+    color: var(--festival-blue);
+}
+
+.artist-genre.electronic {
+    background-color: rgba(26, 188, 156, 0.2);
+    border: 1px solid var(--festival-teal);
+    color: var(--festival-teal);
+}
+
+.artist-time {
+    font-size: 0.75rem;
+    color: rgba(236, 240, 241, 0.6);
+    margin-top: 0.25rem;
+}
+
+.artist-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.action-button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-button:hover {
+    transform: scale(1.1);
+}
+
+.delete-btn {
+    background-color: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+}
+
+.delete-btn:hover {
+    background-color: rgba(231, 76, 60, 0.4);
+}
+
+.confirm-btn {
+    background-color: rgba(26, 188, 156, 0.2);
+    color: var(--festival-teal);
+}
+
+.confirm-btn:hover {
+    background-color: rgba(26, 188, 156, 0.4);
+}
+
+.edit-btn {
+    background-color: rgba(52, 152, 219, 0.2);
+    color: var(--festival-blue);
+}
+
+.edit-btn:hover {
+    background-color: rgba(52, 152, 219, 0.4);
+}
+
+.status {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    margin-left: 0.5rem;
+}
+
+.status.confirmed {
+    background-color: rgba(26, 188, 156, 0.2);
+    color: var(--festival-teal);
+}
+
+.status.pending {
+    background-color: rgba(241, 196, 15, 0.2);
+    color: #f1c40f;
+}
+
+/* Animation for new artist additions */
+@keyframes festivalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.new-artist {
+    animation: festivalFadeIn 0.5s ease-out;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .festival-container {
+        padding: 1rem;
+    }
+    
+    .artist-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .artist-actions {
+        align-self: flex-end;
+    }
+}

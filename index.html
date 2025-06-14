@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High School Music Festival Manager</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="festival-container">
+        <header class="festival-header">
+            <h1>🎵 High School Music Festival</h1>
+            <p>Manage your festival lineup</p>
+        </header>
+
+        <div class="control-panel">
+            <form id="artist-form" class="festival-form">
+                <div class="form-group">
+                    <label for="artist-name">Artist/Band Name:</label>
+                    <input type="text" id="artist-name" placeholder="Enter artist/band name" required>
+                </div>
+                <div class="form-group">
+                    <label for="artist-genre">Genre:</label>
+                    <select id="artist-genre">
+                        <option value="traditional">🥁 Traditional</option>
+                        <option value="band">🎺 Band</option>
+                        <option value="choir">🎤 Choir</option>
+                        <option value="solo">🎹 Solo</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="festival-button">Add to Lineup</button>
+            </form>
+        </div>
+
+        <div class="artist-display">
+            <h2>🎤 Festival Lineup <span id="artist-count">0/10</span></h2>
+            <ul id="artist-list" class="festival-list"></ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
