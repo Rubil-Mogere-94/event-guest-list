@@ -31,7 +31,7 @@ git@github.com:Rubil-Mogere-94/event-guest-list.git
 
 ```
 2. **Open the folder** in VS Code
-3. **Run the application** using live server:
+3. **Run the application** run html file using live server:
 
 
 ## 💻 How to Use
